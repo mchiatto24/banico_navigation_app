@@ -1,8 +1,23 @@
 import 'package:flutter/material.dart';
+import 'demo_auth.dart';
+import 'login_screen.dart';
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({super.key});
+  final String username;
 
+  const ProfilePage({super.key, required this.username,
+  });
+
+  void logout(BuildContext context) {
+    DemoAuth.logout();
+
+    Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => 
+    const LoginScreen(),
+    ),
+    (route) => false,
+    );
+  }
+    
   @override
   Widget build(BuildContext context) {
     return Scaffold(
