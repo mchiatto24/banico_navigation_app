@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935955024731",
+    "project_id": "banico-ce786",
+    "storage_bucket": "banico-ce786.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935955024731:android:8827ac69ad4ac72ab3a87e",
+        "android_client_info": {
+          "package_name": "com.example.banico_navigation_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlq-zQzvwXVqVdanr70uifXitbisXwr3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
